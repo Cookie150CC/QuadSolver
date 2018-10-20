@@ -1,2 +1,3 @@
 All program files will be written in C.
-GNU C99 will be used as out compiler and all C code must be compialable by this compiling standard.
+When compiling the QuadSolver source code use gcc version: 7.3.0
+The following flags should be used when compiling: -Wall -pedantic -std=g99
