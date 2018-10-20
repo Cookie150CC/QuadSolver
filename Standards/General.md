@@ -1,0 +1,1 @@
+- Logs of program process (execution time, errors, warnings, other messages of program processes) must be kept in Source/Logs
