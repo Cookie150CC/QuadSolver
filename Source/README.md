@@ -1,1 +1,1 @@
-# ALL file in this folder must be wirtten in C as described in Standards/Language
+# Thoroughly read all file in located in the Standards directory before modifying this directory
