@@ -2,6 +2,7 @@ double* getInput(char in[], char *out[])
 {
   int flag = 1;
   char *tok = malloc(input_length);
+  char *endptr;
   int count = 0;
   double* abcArray = malloc(sizeof(double)*3);
   char delimit[] = ",\0";
@@ -29,8 +30,12 @@ double* getInput(char in[], char *out[])
       //seperate
       flag = 1;
       for(int i=0; i<3; i++){
-        abcArray[i] = atof(out[i]);
+		if((abcArray[i] = strtod(out[i], &endptr)) != 0)
+		{
         out[i] = NULL;
+		}
+		else
+			printf("Invalid input for conversion.");
       }
     }else{
       flag = 0;
