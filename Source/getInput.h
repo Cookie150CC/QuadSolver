@@ -1,3 +1,6 @@
+/**
+ *
+ */
 double* getInput(char in[], char *out[])
 {
   int flag = 1;
