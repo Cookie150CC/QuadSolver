@@ -6,6 +6,7 @@
 #include <string.h>
 #include <math.h>
 #include "removeSpaces.h"
+#include "getSqrt.h"
 #include "getInput.h"
 #include "getQuadSolutions.h"
 #include "checkContinue.h"
