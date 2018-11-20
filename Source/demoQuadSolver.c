@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include "logPrint.h"
 #include "removeSpaces.h"
 #include "getSqrt.h"
 #include "getInput.h"
@@ -22,7 +23,7 @@ int main(void) {
   
   //Brief instructions
   printf("Welcome to Quad Solver!\n\t plug in values for a, b, and c in that order\n\tSeperate the three values by a comma\n");
-
+  logPrint("Program has begun");
   do{
     abcArray  = getInput(input, splitInput);
 
